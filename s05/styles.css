@@ -1,0 +1,36 @@
+.table1 {
+    color: blue;
+    border: 1px solid black;
+    width: 190px;
+}
+
+.table2 {
+    color: blue;
+    border: 1px solid black;
+    width: 190px;
+}
+
+.table3 {
+    color: blue;
+    border: 1px solid black;
+    width: 190px;
+    
+}
+
+.table4 {
+    color: blue;
+    border: 1px solid black;
+    width: 190px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    height: 700px;
+}
+
+table{
+    position:absolute;
+    width: 190px;
+}

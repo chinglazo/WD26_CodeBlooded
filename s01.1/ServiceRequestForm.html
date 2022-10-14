@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>IT Service Request Form</title>
+</head>
+
+<body>
+    
+
+    <div class="container">
+
+    <div class="box">
+        
+        <h2>ABC Company IT Service Request Form</h2>
+
+        <table>
+
+            <div class="Label">
+
+                <div id="firstname">
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname" id="firstname" required>
+                </div>
+
+                <div id="lastname">
+                    <label for="firstname">Last Name</label>
+                    <input type="text" name="lastname" id="lastname" required>
+                </div>
+
+                <div id="email">
+                    <label for="email">Email Address</label>
+                    <input type="text" name="email" id="email" required>
+                </div>
+
+                <div id="contact">
+                    <label for="contact">Contact Number</label>
+                    <input type="number" name="contact" id="contact" placeholder="Phone no. or Mobile no."  required>
+                </div>
+
+            </div>
+        </table>   
+    
+
+ 
+        <table>
+            <h2>Choose your preferred workstation.</h2>
+
+             <!--This section is for the Radio button where the user will choose work from home or work on site-->
+            <div class="RadioButton">
+                
+                    <input type="radio" id="WOS" name="WOS" value="WOS">
+                    <label for="WOS">Work on Site</label>  
+                    
+                    <div id="WorkStation">
+                        <label for="firstname">Work Station No.</label>
+                        <input type="text" name="WorkStation" id="WorkStation" placeholder="ex. D24S" required>
+                    </div>
+    
+                    <div id="Dept">
+                        <label for="Dept">Department</label>
+                        <input type="text" name="Dept" id="Dept" placeholder="ex. IT Dept" required>
+                    </div>
+    
+                    <div id="Building">
+                        <label for="Building">Building</label>
+                        <input type="text" name="Building" id="Building" placeholder="Input your building and which floor" required>
+                    </div>
+               
+                    <input type="radio" id="WFH" name="WFH" value="WFH">
+                    <label for="WFH">Work From Home</label>
+
+                    <div id="CompleteAddress">
+                        <label for="CompleteAddress">Home Address</label>
+                        <input type="text" name="CompleteAddress" id="CompleteAddress" placeholder="State your complete Address" required>
+                    </div>
+
+                    <div id="comment">
+                        <label for="comment"></label>
+                        <textarea rows="4" cols="50" name="comment" form="WFH" placeholder="Landmark of your nearest location."></textarea>
+                    </div>
+                
+            </div>
+
+            <!--This section is for the drop down button-->
+            <div class="DropDownButton">
+
+                <form action="/action_page.php">
+                
+                    <h3>
+                    <label for="RequestOption">Request type Option:</label>
+                    </h3>
+
+                    <select name="RequestOption" id="RequestOption">
+                    
+                        <!--This is the list of the services in the drop down button-->
+                        <option value="Blank"></option>  
+                      <option value="Setup">Desktop/Laptop Setup</option>
+                      <option value="Support">Desktop/Laptop Support</option>
+                      <option value="Maintenance">Desktop/Laptop Maintenance</option>
+                      <option value="Software">Software Installation</option>
+                      <option value="SoftwareSupport">Software Support</option>
+                      <option value="Peripheral">Computer Peripheral Setup</option>
+                      <option value="Troubleshooting">Peripheral Troubleshooting</option>
+                      <option value="CompPerMaintenance">Computer Peripheral Maintenance</option>
+
+                    </select>
+                  
+                    <input type="submit" value="Submit">
+
+                </form>
+                
+            </div>
+
+
+        </table>
+    </div>
+
+    </div>
+</body>
+</html>
