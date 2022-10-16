@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Login Page!</title>
+</head>
+
+<style>
+    table {
+      border: 1px solid black;
+      align-content: center;
+    }
+</style>
+
+<body>
+
+   
+    <table>
+
+        <!--This is the container for logging in the accounts-->
+    <div class="container">
+
+        <div class="box">
+            
+            <h1>ABC Company</h1>
+
+            <!--This is the section for the content of the input page-->
+            <form action="ServiceRequestForm.html" method="GET">
+
+                <div>
+                    <label for="name"><b>User Name</b></label>
+                    <input type="text" name="name" id="name" placeholder="Please enter your username" required>
+                </div>
+
+                <div>
+                    <label>
+                        <b>Password</b>
+                        <input type="password" name="password" placeholder="Enter your password" required>
+                    </label>
+                </div>
+
+                <!--This is the section for the button of the First Page-->
+                <div class="button">
+
+                    <div>
+                        <button type="submit" name="submit" id="submit">Submit</button>
+
+
+                        <button type="reset" name="reset" id="reset">Clear</button>
+                    </div>
+                
+                    <!--This is the section for the alert message-->
+                <div class="message">
+
+                    <div class="success" id="success">
+                        “Thank you for logging in”
+                    </div>
+
+                </div>
+          
+
+                </div>
+               
+            </form>
+
+        </div>
+
+    </div>
+
+    </table>
+
+
+</body>
+</html>

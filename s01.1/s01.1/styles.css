@@ -1,0 +1,119 @@
+* {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+h1 {
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 5px
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin-top: 0%;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+body{
+    background-image: linear-gradient(black, purple, white) ;
+    background-repeat: no-repeat;
+}
+.container 
+{
+    width: 700px;
+    height: auto;
+    background-image: linear-gradient(black, purple, white);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    
+}
+
+label {
+
+    color: white;
+}
+
+.box{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+
+/*This section is for the button styles*/
+.button{
+    padding-top: 30px;
+    width: 40%;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.button button{
+    width: 100;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 15px;
+    color: #fff;
+    background-color: grey;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+#submit {
+    color: white;
+}
+
+#submit:hover {
+    color: blue;
+}
+
+#reset {
+    color: white;
+   
+}
+
+#reset:hover {
+    color: blue;
+}
+
+
+
+
+
+/*This section is for the service Request Form*/
+
+.table1{
+    text-align: center;
+    padding-top: 2px;;
+    display: flex;
+    justify-content: center ;
+}
+
+.table2{
+    text-align: center;
+    padding-top: 2px;
+    justify-content: center ;
+}
+
+
