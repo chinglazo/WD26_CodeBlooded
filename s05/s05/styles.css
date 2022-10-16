@@ -1,0 +1,36 @@
+.div1{
+    border: 2px solid rgb(0,0,0);
+   position:absolute;
+   top: 12px;
+   Left: 2%;
+   Width: 300px;
+   Height: 700px;
+   }
+
+   .div2{
+    border: 2px solid rgb(0,0,0);
+   position:absolute;
+   top: 12px;
+   Left: 23%;
+   Width: 300px;
+   Height: 700px;
+   }
+
+
+   .div3{
+    border: 2px solid rgb(0,0,0);
+   position:absolute;
+   top: 12px;
+   Left: 44%;
+   Width: 300px;
+   Height: 700px;
+   }
+
+   .div4{
+    border: 2px solid rgb(0,0,0);
+   position:absolute;
+   top: 12px;
+   Left: 65%;
+   Width: 300px;
+   Height: 700px;
+   }
