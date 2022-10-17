@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> L O V E L A C E </title>
+
+    <!-- favicon -->
+    <link rel="icon" href="./img/logo.png" type="image/icon type">
+
+    <!-- external css-->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- header -->
+    <header> 
+        <a href="#"><img class="hdrlogo" src="./img/hdrlogo.png"/></a>
+    </header>
+    <!-- end of header -->
+
+    <div class="container">
+        <!-- navigation bar -->
+        <nav>
+            <!-- unordered list -->
+            <ul>
+                <li><a href="#about">/about me</a></li>
+                <li><a href="#services">/services</a></li>
+                <li><a href="#projects">/projects</a></li>
+                <li><a href="#contact">/contact</a></li>
+                <li>
+                    <a href="https://www.facebook.com/" target=”_blank”><img class="imglist" src="./img/facebook.png"></a>
+                    <a href="https://twitter.com/" target=”_blank”><img class="imglist" src="./img/twitter.png"></a>
+                    <a href="https://github.com/" target=”_blank”><img class="imglist" src="./img/github.png"></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- main:  unang makikita ng user -->
+    <main class="landing">
+        <h1 class="greet">
+            Hi, I'm <span>Ada</span>!
+        </h1>
+
+        <h2>
+            I create stuff sometimes. 
+        </h2>
+
+        <p>
+            I'm the first programmer and is currently based in England. <br>
+            'The more I study, the more insatiable do I feel my genius for it to be.'
+        </p> 
+        
+        <!-- download and view resume-->
+        <div class="btn">
+            <a href="./data/resume_ada.jpg" target="_blank">
+                <button type="button" class="download">View Resume</button> <!-- view resume in new tab -->
+            </a>
+            
+            <a href="./data/resume_ada.jpg" download="ada"> 
+                <button type="button" class="download">Download Resume</button> <!-- download resume -->
+            </a>
+        </div>
+    </main>
+    <!-- end of main -->
+
+    <!-- section 1 - about me -->
+    <section class="sec1" id="about">
+        <h2>/about me</h2>
+
+        <div class="main-content">
+
+            <div class="item-container">
+
+                <div class="image-wrap">
+                    <img src="./img/abt.jpg" alt="ada lovelace">
+                </div>
+
+                <div class="item-details">
+                    <p>I'm <span>Augusta Ada Byron</span>, Countess of Lovelace. I have great interest in Analytical Engine, Mathematics, and everything in between. Outside of work, I'm interested in writing and following the developments of science. </p>
+
+                </div>
+            </div>
+            <div class="item-container">
+
+                <div class="image-wrap">
+                    <img src="./img/abt.jpg" alt="ada lovelace">
+                </div>
+
+                <div class="item-details">
+                    <h3>Lorem Ipsum Dolor </h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, culpa? Natus, porro dolorem laudantium quos eum deleniti nihil in numquam temporibus. Hic, totam. Voluptatum impedit doloribus praesentium quasi, pariatur hic?</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of section 1 - about me -->
+
+    <!-- sec 2 -services-->
+    <section class="sec2" id="services">
+        <h2>/services</h2>
+
+        <!-- table here -->
+        <table cellpadding="13">
+            <thead style="text-align: left;">
+                <tr>
+                    <th>Coding</th>
+                    <th>Graphic Designing</th>
+                    <th>Photography</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. </td>
+                </tr>
+            </tbody>
+            <thead style="text-align: left;">
+                <tr>
+                    <th>Hacking</th>
+                    <th>Web Designing</th>
+                    <th>UI Design</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- end of sec 2 - services -->
+
+    <!--sec 3 - projects -->
+    <section class="sec3" id="projects">
+        <h2>/projects</h2>
+
+        <!-- HTML Cards -->
+        <div class="card__container">
+            <!-- card 1 -->
+            <div class="card">
+                <div class="card__inner">
+                    <!--front -->
+                    <div class="card__face card__face--front">
+
+                        <!--icon -->
+                        <img src="./img/animal-shelter.png" alt="animal shelter" class="icon" >
+                        <h3> Animal Shelter Management System</h3> <!-- title of the sample project-->
+
+                    </div>
+
+                    <!--back -->
+                    <div class="card__face card__face--back">
+                        <div class="card__body">
+                            <h3 class="title-bck">Animal Shelter Management System</h3> <!-- name of the sample project-->
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. <!-- brief description of project-->
+                            </p>
+
+                            <p>
+                                <strong>Stack: HTML, CSS, JavaScript</strong> <!-- languages, frameworks, etc used.-->
+                            </p>
+                            <button type="button" class="btn-view">View</button> <!-- live demo -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 2-->
+            <div class="card">
+                <div class="card__inner">
+                    <!--front -->
+                    <div class="card__face card__face--front">
+
+                        <img src="./img/bus.png" alt="animal shelter" class="icon" >
+                        <h3> Bus Scheduling System</h3> 
+
+                    </div>
+
+                    <!--back -->
+                    <div class="card__face card__face--back">
+                        <div class="card__body">
+                            <h3 class="title-bck"> Bus Scheduling System</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            </p>
+
+                            <p>
+                                <strong>Stack: XML, Xamarin, Java, Kotlin, Firebase</strong>
+                            </p>
+                            <button type="button" class="btn-view">View</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="card">
+                <div class="card__inner">
+                    <!--front -->
+                    <div class="card__face card__face--front">
+
+                        <img src="./img/hosp.png" alt="animal shelter" class="icon" >
+                        <h3> Patient Monitoring System</h3> 
+
+                    </div>
+
+                    <!--back -->
+                    <div class="card__face card__face--back">
+                        <div class="card__body">
+                            <h3 class="title-bck">Patient Monitoring System</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            </p>
+                            <p>
+                                <strong>Stack: HTML, CSS, PHP, MySQL</strong>
+                            </p>
+                            <button type="button" class="btn-view">View</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- flip card -->
+            <script>
+                const card = document.querySelectorAll('.card__inner');
+    
+                card.forEach((card) => {
+                    card.addEventListener("click", () => {
+                        card.classList.toggle("is-flipped");
+                    });
+                });
+            </script>
+        </div>
+    </section>
+    <!-- end of sec 3 - projects-->
+
+    <!-- sec 4 - contacts -->
+    <section class="sec4" id="contact">
+        <h2>/contact</h2> 
+            <!-- form -->
+            <form>
+                <p class="title">
+                    <strong>Let's Talk</strong> <!-- like <b> -->
+                </p>
+
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" size="44" required> 
+                </p>
+
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" size="44" required> 
+                </p>
+
+                <p>
+                    <textarea rows="3" cols="45" placeholder="Message here..." required></textarea>
+                </p>
+
+                <p>
+                    <button type="button">Send</button>
+                </p>
+            </form>
+    </section>
+
+    <!-- end of section 4 - contact -->
+    <footer>
+        <a href="index.html"><img class="ftrlogo" src="./img/hdrlogo.png"/></a>
+        <p>Built and developed by Group 5. All rights reserved © </p>
+    </footer>
+</body>
+</html>
