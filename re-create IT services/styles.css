@@ -1,0 +1,67 @@
+.container 
+{
+    max-width: 570px;
+    --bs-gutter-x: 10.5rem;
+    --bs-gutter-y: 0;
+}
+
+.boxcontainer 
+{
+    margin: 0;
+    padding: 50px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 10%;
+    border-radius: 5rem;
+    box-shadow: 0.25rem 0.5rem;
+}
+
+.boxcontainer button {
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+    background-color:rgb(50, 163, 163);
+}
+
+ 
+.boxcontainer h1 {
+    color: rgb(50, 163, 163);
+}
+
+.formcontainer 
+{
+    max-width: 670px;
+    --bs-gutter-x: 9.5rem;
+    --bs-gutter-y: 0;
+
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.submitcontainer
+{
+    margin: 0;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 10%;
+    border-radius: 5rem;
+    box-shadow: 0.25rem 0.5rem;
+}
+
+.submitcontainer h1{
+    color: rgb(50, 163, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitcontainer 
+{
+    max-width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-right: 40%;
+}
